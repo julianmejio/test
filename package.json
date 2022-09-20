@@ -1,6 +1,6 @@
 {
   "name": "@julianmejio/test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nice greeter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,7 +12,7 @@
     "prepublishOnly": "npm run lint && npm test",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags",
+    "postversion": "git push && git push --tags",
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -23,9 +23,12 @@
     "url": "git@github.com:julianmejio/test.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
-  "keywords": ["Hello", "Greeter"],
+  "keywords": [
+    "Hello",
+    "Greeter"
+  ],
   "author": "jmejio",
   "license": "ISC",
   "devDependencies": {
