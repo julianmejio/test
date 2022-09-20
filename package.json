@@ -1,5 +1,5 @@
 {
-  "name": "ts-test",
+  "name": "julianmejio/test",
   "version": "1.0.0",
   "description": "A nice greeter",
   "main": "lib/index.js",
@@ -21,6 +21,9 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:julianmejio/test.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "keywords": ["Hello", "Greeter"],
   "author": "jmejio",
